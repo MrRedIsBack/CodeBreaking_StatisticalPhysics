@@ -19,14 +19,6 @@ This repository contains a Jupyter notebook (`main.ipynb`) implementing cryptogr
    - Refine via frequency mapping and manual swaps.
    - Apply Metropolis for final decryptions.
 
-## Files
-| File | Description |
-|------|-------------|
-| `main.ipynb` | Core notebook with all methods and examples |
-| `moby.txt`, etc. | Auto-generated Gutenberg corpora for analysis |
-- Simple ciphers solved via permutations.
-- Complex ones via Metropolis yield coherent English, e.g., "SHERLOCK HOLMES PRESERVED HIS CALM..." [file:39].
-
 ## License
 MIT License – feel free to fork and extend for educational use.
 
