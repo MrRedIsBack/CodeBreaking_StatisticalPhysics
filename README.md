@@ -8,10 +8,10 @@ This repository contains a Jupyter notebook (`main.ipynb`) implementing cryptogr
 - **Frequency Analysis**: Maps cipher letter frequencies to English norms from Gutenberg texts (Moby Dick); includes interactive swapping for refinement.
 - **Bigram Score Function**: Computes log-probability of letter pairs against reference corpus for English-likeness evaluation.
 - **Metropolis Algorithm**: MCMC optimization swaps letters probabilistically based on score improvements, annealing via T sequence (10.0 to 0.1); deciphers complex messages.
-- ##Examples:** Some example messages have been left in, change the message within the variable `message`.
+- **Examples:** Some example messages have been left in, change the message within the variable `message`.
 
 ## Setup and Usage
-1. Clone repo: `git clone <repo-url>`
+1. Clone repo: `git clone https://github.com/MrRedIsBack/CodeBreaking_StatisticalPhysics`
 2. Open `main.ipynb` in Jupyter: `jupyter notebook main.ipynb`
 3. Run cells sequentially:
    - Downloads Gutenberg texts (Moby Dick, etc.) automatically.
